@@ -18,7 +18,9 @@ Research Themes:
 1. Pseudodifferential operators 
 1. Strichartz estimates
 
-[CV](http://rahulrajupattar.github.io/files/CV.pdf)
+[My CV](http://rahulrajupattar.github.io/files/CV.pdf)
+----------
 
-[PhD Thesis](http://rahulrajupattar.github.io/files/PhD Thesis Rahul Pattar.pdf)
+[My PhD Thesis](http://rahulrajupattar.github.io/files/PhD Thesis Rahul Pattar.pdf)
+----------
 
