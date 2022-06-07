@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am absolutely delighted to meet you here. I am a mathematician working in the area of analysis of hyperbolic partial differential equations. I recently completed my PhD from the Department of Mathematics and Computer Science, [Sri Sathya Sai Institute of Higher Learning](https://www.sssihl.edu.in).
+I am absolutely delighted to meet you here. I am a mathematician working on analysis of hyperbolic partial differential equations. I recently completed my PhD from the Department of Mathematics and Computer Science, [Sri Sathya Sai Institute of Higher Learning](https://www.sssihl.edu.in).
 
 Research Themes:
 ======
@@ -18,4 +18,7 @@ Research Themes:
 1. Pseudodifferential operators 
 1. Strichartz estimates
 
+[CV](http://rahulrajupattar.github.io/files/CV.pdf)
+
+[PhD Thesis](http://rahulrajupattar.github.io/files/PhD Thesis Rahul Pattar.pdf)
 
