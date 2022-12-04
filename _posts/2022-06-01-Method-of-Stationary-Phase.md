@@ -8,4 +8,4 @@ tags:
 #  - category2
 ---
 
-I will be blogging on various aspects of microlocal analysis and hyperbolic PDEs. I will starting with method of stationary phase. Stay tuned. 
+I will be blogging on various aspects of microlocal analysis and hyperbolic PDEs. I will be starting with method of stationary phase. Stay tuned. 
