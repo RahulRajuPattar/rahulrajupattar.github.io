@@ -11,5 +11,5 @@ title: "Publications"
 Preprints
 ======
 
-1. Bansal, R., Krishnan, V. P., and Pattar, R. R., Determination of Lower Order Perturbations of a Polyharmonic Operator in Two Dimensions, [Download paper here](https://arxiv.org/abs/2309.06048)
+1. Bansal, R., Krishnan, V. P., and Pattar, R. R. (2023), Determination of Lower Order Perturbations of a Polyharmonic Operator in Two Dimensions, [Download paper here](https://arxiv.org/abs/2309.06048)
 1. Pattar, R. R. and Uday Kiran, N. (2021), Strictly hyperbolic equations with coefficients sublogarithmic in time,  [Download paper here](https://doi.org/10.48550/arXiv.2111.11701)
