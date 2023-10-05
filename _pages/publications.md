@@ -1,6 +1,7 @@
 ---
 layout: archive
 title: "Publications"
+hidedate: true
 permalink: /publications/
 author_profile: true
 ---
