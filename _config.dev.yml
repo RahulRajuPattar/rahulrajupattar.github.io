@@ -3,11 +3,11 @@
 url: http://localhost:4000
 
 analytics:
-  provider: false
+  provider: True
 
 comments:
   disqus:
-    shortname            : "mmistakes-dev"
+    shortname            : "Rahul"
 
 sass:
   style: expanded
