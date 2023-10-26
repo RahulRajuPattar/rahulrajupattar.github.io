@@ -38,14 +38,14 @@ The portfolio return ($r$) is the weighted average of the individual asset retur
 \end{equation}
 
 On the other hand, the standard deviation or the volatility ($\sigma$) of the portfolio is given by
-\begin{equation}
+\begin{equation}\label{formula}
 	\sigma = \left(x_1^2 \sigma_1^2 + x_2^2 \sigma_2^2 + 2\rho_{12}(x_1 \sigma_1)(x_2 \sigma_2)\right)^{\frac{1}{2}}
 \end{equation}
 where $\rho_{12}$ is the correlation between assets $A_1$ and $A_2$. 
 
 At this juncture we make an important observation that is essential in developing general case of $n$ assets in the portfolio. We note that $\sigma^2$ is expressed as a quadratic form given by
 
-\begin{equation}\label{QF}
+$$
 \sigma^2 =  \begin{pmatrix} 
 	x_{1} & x_{2}
 \end{pmatrix}
@@ -57,9 +57,9 @@ At this juncture we make an important observation that is essential in developin
 	x_{1} \\
 	x_{2}
 \end{pmatrix}
-\end{equation}
+\label{QF}$$
 
-On the right hand side of the above expression, sandwiched between the weights vectors is the variance-covariance matrix. As far as the computation are concerned, the expression \ref{QF}
+On the right hand side of the above expression, sandwiched between the weights vectors is the variance-covariance matrix. As far as the computation are concerned, the expression \ref{QF} is more helpful that \ref{formula}.
 
 When we have $n$ assets ($A_1, A_2, \dots, A_n$) in the portfolio, the computation of the portfolio variance, $\sigma^2$ can be expressed as a quadratic form. Now, what is the symmetric positive definite matrix defining this quadratic form? The answer is variance-covariance matrix. To elaborate on this, consider the matrix S defined by
 
