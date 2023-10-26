@@ -70,6 +70,7 @@ $$
         & & \sigma_{n}
 	\end{pmatrix}
 $$
+
 where $\sigma_i$ is the standard deviation of an asset $A_i$. Note that $S$ is diagonal matrix with $S_{ii} = \sigma_i$ and $S_{ij} = 0$ for $i\neq j$. The matrix $S$ contains standard deviations of each asset as its diagonal entries. 
 
 Next, consider the correlation matrix $C$ defined by
