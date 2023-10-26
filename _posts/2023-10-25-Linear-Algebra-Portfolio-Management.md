@@ -41,7 +41,7 @@ On the other hand, the standard deviation or the volatility ($\sigma$) of the po
 \begin{equation}\label{formula}
 	\sigma = \left(x_1^2 \sigma_1^2 + x_2^2 \sigma_2^2 + 2\rho_{12}(x_1 \sigma_1)(x_2 \sigma_2)\right)^{\frac{1}{2}}
 \end{equation}
-where $\rho_{12}$ is the correlation between assets $A_1$ and $A_2$. 
+where $\rho_{12} \in [-1,1]$ is the correlation between assets $A_1$ and $A_2$. 
 
 At this juncture we make an important observation that is essential in developing general case of $n$ assets in the portfolio. We note that $\sigma^2$ is expressed as a quadratic form given by
 
@@ -88,7 +88,8 @@ $$
 	\end{pmatrix}.
 $$
 
-where $\rho_{ij}$ is correlation between the assets $A_i$ and $A_j$. It is worth to notice that $C$ is a symmetric matrix since $\rho_{ij} = \rho_{ji}$.
+where $\rho_{ij} \in [-1,1] $ is correlation between the assets $A_i$ and $A_j$. It is worth to notice that $C$ is a symmetric matrix since $\rho_{ij} = \rho_{ji}$.
+
 The variance-covariance matrix ($V$) is then given by
 
 $$
