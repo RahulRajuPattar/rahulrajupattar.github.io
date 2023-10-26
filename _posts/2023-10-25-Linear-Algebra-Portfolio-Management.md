@@ -61,7 +61,14 @@ $$
 
 On the right hand side of the above expression, sandwiched between the weights vectors is the variance-covariance matrix. As far as the computation is concerned, the expression \eqref{QF} is more helpful than \eqref{formula} which we will see in a short while.
 
-**Example:** Let $\sigma_{1} = 23%, \sigma_{2} = 30%$, $r_1 = 18%, r_2 = 25%$, $x_1 = 0.4, x_2 = 0.6$, and $\rho_{12} = -0.08$. The the portfolio retuns and standard deviation are $r =  22.2%$ and $\sigma = 19.5485%,$ respectively.
+**Example:** Let $\sigma_{1} = 23\%, \sigma_{2} = 30\%$, $r_1 = 18\%, r_2 = 25\%$, $x_1 = 0.3, x_2 = 0.7$, and $\rho_{12} = -0.08$. The the portfolio retuns and standard deviation are $r =  22.9\%$ and $\sigma = 21.5737\%,$ respectively.
+
+Suppose as a risk averse investor, one is interested in a minimum variance portfolio then what should be the weights for the assets in the portfolio? This can be calculated as below:
+
+Firstly note that $x_2 = 1-x_1$
+$$
+	
+$$
 
 When we have $n$ assets ($A_1, A_2, \dots, A_n$) in the portfolio, the portfolio variance, $\sigma^2$ is given by the quadratic form
 \begin{equation}\label{formula2}
