@@ -34,7 +34,7 @@ For the sake of demonstration, let us suppose that our portfolio consists of two
 
 The portfolio return ($r$) is the weighted average of the individual asset returns. It is given by
 \begin{equation}
-	r = x_1r_1 + x_2r_2.
+	r = x_1r_1 + x_2r_2, \quad  \text{ for } x_1 + x_2 =1.
 \end{equation}
 
 On the other hand, the standard deviation or the volatility ($\sigma$) of the portfolio is given by
@@ -82,13 +82,14 @@ Next, consider the correlation matrix $C$ defined by
 $$
 	C = \begin{pmatrix} 
 	1                  & \rho_{12} & \dots         &  \rho_{1n} \\
-	\rho_{21} & 1                  & \dots         &  \rho_{1n} \\
+	\rho_{21} & 1                  & \dots         &  \rho_{2n} \\
     	\vdots          & \ddots          & \dots         & \vdots        \\
         \rho_{n1}     & \dots          &  \rho_{nn-1} & 1
 	\end{pmatrix}.
 $$
 
-The variance-covariance matrix (V) is then given by
+where $\rho_{ij}$ is correlation between the assets $A_i$ and $A_j$. It is worth to notice that $C$ is a symmetric matrix since $\rho_{ij} = \rho_{ji}$.
+The variance-covariance matrix ($V$) is then given by
 
 $$
 	V = S \times C \times S.
