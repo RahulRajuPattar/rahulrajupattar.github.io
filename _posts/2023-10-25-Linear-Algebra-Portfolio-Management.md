@@ -1,15 +1,14 @@
 ---
 title: 'Applications of Linear Algebra in Portfolio Management'
 date: 2023-10-25
+header-includes: |
+    \usepackage{tikz,pgfplots}
 permalink: /posts/2023/10/Linear-Algebra-Portfolio-Management/
 tags:
   - Linear Algebra
   - Portfolio Management
 #  - category2
 
-header-includes: |
-    \usepackage{tikz,pgfplots}
-abstract: This is a pandoc test with Markdown + inline LaTeX
 ---
 <!---
 %<script
@@ -26,12 +25,12 @@ Linear algebra is a branch of mathematics developed to solve a system of linear 
 
 ### Standard Deviation of a Portfolio
 
-For the sake of demonstration, let us suppose that our portfolio consists of two securities $A_1$ and $$A_2$$ whose returns, standard deviation and weights in the portfolio are summarized in the following table.
+For the sake of demonstration, let us suppose that our portfolio consists of two securities $A_1$ and $A_2$ whose returns, standard deviation and weights in the portfolio are summarized in the following table.
 
 | Asset    | Weight    | Std. Deviation(%)| Return(%)       | 
 |------------|-------------|------------------------|---------------------|
-|Asset1   |$$x_1$$  |$$\sigma_1$$       |$$r_1$$            |
-|Asset2   |$$x_2$$  |$$\sigma_2$$       |$$r_2$$            |
+|Asset1   |$x_1$  |$\sigma_1$       |$r_1$            |
+|Asset2   |$x_2$  |$\sigma_2$       |$r_2$            |
 
 
 
