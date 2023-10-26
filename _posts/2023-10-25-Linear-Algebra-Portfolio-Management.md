@@ -13,9 +13,17 @@ tags:
   type="text/javascript">
 </script>
 
-Linear algebra is a branch of mathematics developed to solve a system of linear equations and has found many applications in applied sciences- computer science(image processing) and mathematical finance(portfolio management).  In this article, we shall compute standard deviation of a portfolio using tools from linear algebra. Before we jump to portfolio management it is good to recall certain basic concepts from linear algebra.
+Linear algebra is a branch of mathematics developed to solve a system of linear equations and has found many applications in applied sciences- computer science(image processing) and mathematical finance(portfolio management).  In this article, we shall compute standard deviation of a portfolio using tools from linear algebra. Before we jump to this computation it is good to recall certain basic concepts from linear algebra.
 
 ### Linear Algebra Basics
 
 
+
+
 ### Standard Deviation of a Portfolio
+
+For the sake of demonstration, let us suppose that our portfolio consists of two securities $$A_1$$ and $$A_2$$ whose returns, standard deviation and weights in the portfolio are summarized in the following table.
+| Asset    | Weight    | Std. Deviation(\%) | Return(\%)       | 
+|------------|-------------|--------------------------|---------------------|
+|Asset1   |$$x_1$$  |$$\sigma_1$$         |$$r_1$$            |
+|Asset2   |$$x_2$$  |$$\sigma_2$$         |$$r_2$$            |
