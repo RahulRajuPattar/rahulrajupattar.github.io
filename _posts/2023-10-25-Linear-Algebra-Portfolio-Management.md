@@ -59,7 +59,7 @@ $$
 \end{pmatrix}
 \label{QF}$$
 
-On the right hand side of the above expression, sandwiched between the weights vectors is the variance-covariance matrix. As far as the computation are concerned, the expression \ref{QF} is more helpful that \ref{formula}.
+On the right hand side of the above expression, sandwiched between the weights vectors is the variance-covariance matrix. As far as the computation are concerned, the expression \eqref{QF} is more helpful that \eqref{formula}.
 
 When we have $n$ assets ($A_1, A_2, \dots, A_n$) in the portfolio, the computation of the portfolio variance, $\sigma^2$ can be expressed as a quadratic form. Now, what is the symmetric positive definite matrix defining this quadratic form? The answer is variance-covariance matrix. To elaborate on this, consider the matrix S defined by
 
