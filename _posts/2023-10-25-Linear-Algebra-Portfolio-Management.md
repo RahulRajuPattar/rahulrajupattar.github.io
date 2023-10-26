@@ -56,8 +56,8 @@ where $\sigma_i$ is the standard deviation of an asset $A_i$. Note that $S$ is d
 Next, consider the correlation matrix $C$ defined by
 \[
 	C = \begin{pmatrix} 
-	1                  & $\rho_{12}$ & \hdots         &  \rho_{1n} \\
-	$\rho_{21}$ & 1                  & \hdots         &  \rho_{1n} \\
+	1                  & \rho_{12} & \hdots         &  \rho_{1n} \\
+	\rho_{21} & 1                  & \hdots         &  \rho_{1n} \\
     	\vdots          & \ddots          & \hdots         & \vdots        \\
         \rho_{n1}     & \hdots          &  \rho_{nn-1} & 1
 	\end{pmatrix}
