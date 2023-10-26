@@ -61,9 +61,9 @@ $$
 
 On the right hand side of the above expression, sandwiched between the weights vectors is the variance-covariance matrix. As far as the computation is concerned, the expression \eqref{QF} is more helpful than \eqref{formula}.
 
-When we have $n$ assets ($A_1, A_2, \dots, A_n$) in the portfolio, the computation of the portfolio variance, $\sigma^2$ can be expressed as a quadratic form given by
+When we have $n$ assets ($A_1, A_2, \dots, A_n$) in the portfolio, the portfolio variance, $\sigma^2$ is given by the quadratic form
 \begin{equation}\label{formula2}
-	\sigma^2 =  \sum_{i=1}^{n}x_i^2\sigma_i^2 + 2 \sum_{i=1}^{n} \sum_{\substack{j=1 \\ j\neq i}}^{n}   \rho_{ij} (x_i \sigma_i) (x_ij\sigma_i )
+	\sigma^2 =  \sum_{i=1}^{n}x_i^2\sigma_i^2 + 2 \sum_{i=1}^{n} \sum_{\substack{j=1, \\ j\neq i}}^{n}   \rho_{ij} (x_i \sigma_i) (x_j\sigma_j)
 \end{equation}
 Now, what is the symmetric positive definite matrix defining this quadratic form? The answer is variance-covariance matrix. To elaborate on this, consider the matrix S defined by
 
@@ -85,10 +85,31 @@ $$
 	\rho_{21} & 1                  & \dots         &  \rho_{1n} \\
     	\vdots          & \ddots          & \dots         & \vdots        \\
         \rho_{n1}     & \dots          &  \rho_{nn-1} & 1
-	\end{pmatrix}
+	\end{pmatrix}.
 $$
 
+The variance-covariance matrix (V) is then given by
 
+$$
+	V = S \times C \times S.
+$$
+
+Subsequently, the portfolio variance is expressed as
+
+$$
+	\sigma^2 = 
+	\begin{pmatrix} 
+		x_{1} & x_{2} & \dots & x_n
+	\end{pmatrix}
+	V
+	\begin{pmatrix} 
+		x_{1} \\
+		x_{2}\\
+		\vdots\\
+		x_n
+	\end{pmatrix}
+
+$$
 
 
 
