@@ -32,10 +32,7 @@ For the sake of demonstration, let us suppose that our portfolio consists of two
 |Asset1   |$x_1$  |$\sigma_1$       |$r_1$            |
 |Asset2   |$x_2$  |$\sigma_2$       |$r_2$            |
 
-
-
-\begin{tikzpicture}
-\begin{axis}
-\addplot[color=red]{exp(x)};
-\end{axis}
-\end{tikzpicture}
+The portfolio return ($r$) is the weighted average of the individual asset returns. It is given by
+\begin{equation}
+	r = x_1r_1 + x_2r_2
+\end{equation}

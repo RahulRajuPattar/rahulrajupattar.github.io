@@ -14,8 +14,4 @@ tags:
 </script>
 
 
-I will be blogging on various aspects of microlocal analysis and hyperbolic PDEs. I will be starting with method of stationary phase. Stay tuned.  $$E=mc^2$$.  
-
-$$
-	\frac{4}{3} \pi r^3
-$$
+I will be blogging on various aspects of microlocal analysis and hyperbolic PDEs. I will be starting with method of stationary phase. Stay tuned.  
