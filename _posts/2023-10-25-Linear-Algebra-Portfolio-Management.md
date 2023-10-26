@@ -39,29 +39,29 @@ The portfolio return ($r$) is the weighted average of the individual asset retur
 
 On the other hand, the standard deviation or the volatility ($\sigma$) of the portfolio is given by
 \begin{equation}
-	\sigma = \left(x_1^2 \sigma_1^2 + x_2^2 \sigma_2^2 + 2\rho_{12}(x_1 \sigma_1)(x_2 \sigma_2)\right)^{frac{1}{2}}
+	\sigma = \left(x_1^2 \sigma_1^2 + x_2^2 \sigma_2^2 + 2\rho_{12}(x_1 \sigma_1)(x_2 \sigma_2)\right)^{\frac{1}{2}}
 \end{equation}
 where $\rho_{12}$ is the correlation between assets $A_1$ and $A_2$.
 
 When we have $n$ assets ($A_1, A_2, \dots, A_n$) in the portfolio, the computation of the portfolio variance, $\sigma^2$ can be expressed as a quadratic form. Now, what is the symmetric positive definite matrix defining this quadratic form? The answer is variance-covariance matrix. To elaborate on this, consider the matrix S defined by
-$$
+\begin{equation}
 	S = \begin{pmatrix} 
 	\sigma_{1} & & \\
     	& \ddots & \\
         & & \sigma_{n}
 	\end{pmatrix}
-$$
+\end{equation}
 where $\sigma_i$ is the standard deviation of an asset $A_i$. Note that $S$ is diagonal matrix with $S_{ii} = \sigma_i$ and $S_{ij} = 0$ for $i\neq j$. The matrix $S$ contains standard deviations of each asset as its diagonal entries. 
 
 Next, consider the correlation matrix $C$ defined by
-$$
+\begin{equation}
 	C = \begin{pmatrix} 
 	1                  & \rho_{12} & \hdots         &  \rho_{1n} \\
 	\rho_{21} & 1                  & \hdots         &  \rho_{1n} \\
     	\vdots          & \ddots          & \hdots         & \vdots        \\
         \rho_{n1}     & \hdots          &  \rho_{nn-1} & 1
 	\end{pmatrix}
-$$
+\end{equation}
 
 
 
