@@ -27,7 +27,7 @@ Linear algebra is a branch of mathematics developed to solve a system of linear 
 
 For the sake of demonstration, let us suppose that our portfolio consists of two securities $A_1$ and $A_2$ whose returns, standard deviation and weights in the portfolio are summarized in the following table.
 
-| Asset    | Weight    | Standard Deviation(%)| Return(%)   | 
+| Asset    | Weight    | Standard Deviation(\%)| Return(\%)   | 
 |------------|-------------|------------------------|-----------------|
 |Asset1   |$x_1$  |$\sigma_1$       |$r_1$            |
 |Asset2   |$x_2$  |$\sigma_2$       |$r_2$            |
@@ -70,6 +70,7 @@ Firstly note that $x_2 = 1-x_1$ and the variance is
 $$
 	\sigma^2 = x_1^2 \sigma_1^2 + (1-x_1)^2 \sigma_2^2 + 2 x_1 (1-x_1) \rho_{12} \sigma_1 \sigma_2 .
 $$
+
 To find the weights that minimize the variance, we find the stationary points of $\sigma^2$ with respect to $x_1.$ That is we find $x_1$ such that
 
 $$
@@ -82,7 +83,7 @@ $$
 	x_1 = \frac{\sigma_2^2 - \rho_{12} \sigma_1\sigma_2}{\sigma_1^2 + \sigma_2^2 - 2 \rho_{12}\sigma_1\sigma_2}
 $$
 
-For the above example minimum variance portfolio is attained when $x_1 = 0.62$ and $x_2 = 0.38$ with $\sigma = 17.5299\%$ and $r = 20.66\%.$ The figure shows returns vs standard deviation plot of the portfolio for various combinations of $x_1$ and $x_2.$
+For the above example, minimum variance portfolio is attained when $x_1 = 0.62$ and $x_2 = 0.38$ with $\sigma = 17.5299\%$ and $r = 20.66\%.$ The following figure shows returns vs standard deviation plot of the portfolio for various combinations of $x_1$ and $x_2.$
 
 
 When we have $n$ assets ($A_1, A_2, \dots, A_n$) in the portfolio, the portfolio variance, $\sigma^2$ is given by the quadratic form
