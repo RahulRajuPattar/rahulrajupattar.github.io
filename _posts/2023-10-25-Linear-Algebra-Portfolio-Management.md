@@ -34,5 +34,10 @@ For the sake of demonstration, let us suppose that our portfolio consists of two
 
 The portfolio return ($r$) is the weighted average of the individual asset returns. It is given by
 \begin{equation}
-	r = x_1r_1 + x_2r_2
+	r = x_1r_1 + x_2r_2.
+\end{equation}
+
+On the other hand, the standard deviation or the volatility ($\sigma$) of the portfolio is given by
+\begin{equation}
+	\sigma^2 = x_1^2 \sigma_1^2 + x_2^2 \sigma_2^2 + 2\rho_{12}(x_1 \sigma_1)(x_2 \sigma_2)
 \end{equation}
