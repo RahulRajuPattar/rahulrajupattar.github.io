@@ -85,7 +85,7 @@ $$
 
 For the above example, minimum variance portfolio is attained when $x_1 = 0.62$ and $x_2 = 0.38$ with $\sigma = 17.5299\%$ and $r = 20.66\%.$ The following figure shows returns vs standard deviation plot of the portfolio for various combinations of $x_1$ and $x_2.$
 
-![image](https://github.com/RahulRajuPattar/rahulrajupattar.github.io/blob/ca7f6be17cc1573cd715d139306035d5d3be8f86/files/min_var.png?raw=true)
+![image](https://github.com/RahulRajuPattar/rahulrajupattar.github.io/blob/master/files/min_var.png?raw=true)
 
 
 
