@@ -9,11 +9,6 @@ tags:
 
 header-includes: |
     \usepackage{tikz,pgfplots}
-    \usepackage{fancyhdr}
-    \pagestyle{fancy}
-    \fancyhead[CO,CE]{This is fancy}
-    \fancyfoot[CO,CE]{So is this}
-    \fancyfoot[LE,RO]{\thepage}
 abstract: This is a pandoc test with Markdown + inline LaTeX
 ---
 <!---
@@ -31,7 +26,7 @@ Linear algebra is a branch of mathematics developed to solve a system of linear 
 
 ### Standard Deviation of a Portfolio
 
-For the sake of demonstration, let us suppose that our portfolio consists of two securities $$A_1$$ and $$A_2$$ whose returns, standard deviation and weights in the portfolio are summarized in the following table.
+For the sake of demonstration, let us suppose that our portfolio consists of two securities $A_1$ and $$A_2$$ whose returns, standard deviation and weights in the portfolio are summarized in the following table.
 
 | Asset    | Weight    | Std. Deviation(%)| Return(%)       | 
 |------------|-------------|------------------------|---------------------|
@@ -45,9 +40,7 @@ For the sake of demonstration, let us suppose that our portfolio consists of two
 \addplot[color=red]{exp(x)};
 \end{axis}
 \end{tikzpicture}
-%Here ends the furst plot
 \hskip 5pt
-%Here begins the 3d plot
 \begin{tikzpicture}
 \begin{axis}
 \addplot3[
