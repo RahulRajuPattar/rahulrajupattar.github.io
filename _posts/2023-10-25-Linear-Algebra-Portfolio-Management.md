@@ -27,8 +27,8 @@ Linear algebra is a branch of mathematics developed to solve a system of linear 
 
 For the sake of demonstration, let us suppose that our portfolio consists of two securities $A_1$ and $A_2$ whose returns, standard deviation and weights in the portfolio are summarized in the following table.
 
-| Asset    | Weight    | Std. Deviation(%)| Return(%)       | 
-|------------|-------------|------------------------|---------------------|
+| Asset    | Weight    | Std. Deviation(%)| Return(%)   | 
+|------------|-------------|------------------------|-----------------|
 |Asset1   |$x_1$  |$\sigma_1$       |$r_1$            |
 |Asset2   |$x_2$  |$\sigma_2$       |$r_2$            |
 
@@ -37,14 +37,5 @@ For the sake of demonstration, let us suppose that our portfolio consists of two
 \begin{tikzpicture}
 \begin{axis}
 \addplot[color=red]{exp(x)};
-\end{axis}
-\end{tikzpicture}
-\hskip 5pt
-\begin{tikzpicture}
-\begin{axis}
-\addplot3[
-    surf,
-]
-{exp(-x^2-y^2)*x};
 \end{axis}
 \end{tikzpicture}
