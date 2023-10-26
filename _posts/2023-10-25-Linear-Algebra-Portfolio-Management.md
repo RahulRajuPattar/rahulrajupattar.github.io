@@ -27,7 +27,7 @@ Linear algebra is a branch of mathematics developed to solve a system of linear 
 
 For the sake of demonstration, let us suppose that our portfolio consists of two securities $A_1$ and $A_2$ whose returns, standard deviation and weights in the portfolio are summarized in the following table.
 
-| Asset    | Weight    | Std. Deviation(%)| Return(%)   | 
+| Asset    | Weight    | Standard Deviation(%)| Return(%)   | 
 |------------|-------------|------------------------|-----------------|
 |Asset1   |$x_1$  |$\sigma_1$       |$r_1$            |
 |Asset2   |$x_2$  |$\sigma_2$       |$r_2$            |
@@ -59,7 +59,7 @@ $$
 \end{pmatrix}
 \label{QF}$$
 
-On the right hand side of the above expression, sandwiched between the weights vectors is the variance-covariance matrix. As far as the computation is concerned, the expression \eqref{QF} is more helpful than \eqref{formula}.
+On the right hand side of the above expression, sandwiched between the weights vectors is the variance-covariance matrix. As far as the computation is concerned, the expression \eqref{QF} is more helpful than \eqref{formula} which we will see in a short while.
 
 When we have $n$ assets ($A_1, A_2, \dots, A_n$) in the portfolio, the portfolio variance, $\sigma^2$ is given by the quadratic form
 \begin{equation}\label{formula2}
@@ -113,7 +113,7 @@ $$
 
 $$
 
-
+where $x_i$ is the weight of the asset $A_i$ in the portfolio and $\sum_{i=1}^n x_i = 1.$
 
 
 
