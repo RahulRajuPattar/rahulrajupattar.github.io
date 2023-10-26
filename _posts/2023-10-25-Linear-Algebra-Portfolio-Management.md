@@ -23,6 +23,7 @@ Linear algebra is a branch of mathematics developed to solve a system of linear 
 ### Standard Deviation of a Portfolio
 
 For the sake of demonstration, let us suppose that our portfolio consists of two securities $$A_1$$ and $$A_2$$ whose returns, standard deviation and weights in the portfolio are summarized in the following table.
+
 | Asset    | Weight    | Std. Deviation(\%) | Return(\%)       | 
 |------------|-------------|--------------------------|---------------------|
 |Asset1   |$$x_1$$  |$$\sigma_1$$         |$$r_1$$            |
