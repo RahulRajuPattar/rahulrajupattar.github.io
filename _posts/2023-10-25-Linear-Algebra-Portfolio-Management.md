@@ -61,6 +61,8 @@ $$
 
 On the right hand side of the above expression, sandwiched between the weights vectors is the variance-covariance matrix. As far as the computation is concerned, the expression \eqref{QF} is more helpful than \eqref{formula} which we will see in a short while.
 
+**Example:** Let $\sigma_{1} = 23%, \sigma_{2} = 30%$, $r_1 = 18%, r_2 = 25%$, $x_1 = 0.4, x_2 = 0.6$, and $\rho_{12} = -0.08$. The the portfolio retuns and standard deviation are $r =  22.2%$ and $\sigma = 19.5485%,$ respectively.
+
 When we have $n$ assets ($A_1, A_2, \dots, A_n$) in the portfolio, the portfolio variance, $\sigma^2$ is given by the quadratic form
 \begin{equation}\label{formula2}
 	\sigma^2 =  \sum_{i=1}^{n}x_i^2\sigma_i^2 + 2 \sum_{i=1}^{n} \sum_{\substack{j=1, \\ j\neq i}}^{n}   \rho_{ij} (x_i \sigma_i) (x_j\sigma_j)
