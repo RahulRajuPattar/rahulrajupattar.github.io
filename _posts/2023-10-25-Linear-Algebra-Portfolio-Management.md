@@ -81,9 +81,15 @@ This gives
 
 $$
 	x_1 = \frac{\sigma_2^2 - \rho_{12} \sigma_1\sigma_2}{\sigma_1^2 + \sigma_2^2 - 2 \rho_{12}\sigma_1\sigma_2}
+\label{min}$$
+
+To check whether the above value for $x_1$ gives minimum  variance, we compute the second derivative
+
+$$ 
+	\frac{d^2 \sigma^2}{dx_1^2} = 2(\sigma_1^2 + \sigma_2^2 - 2 \rho_{12}\sigma_1\sigma_2) > 0 \quad \text{ any }  \rho_{12} \in [-1,1].
 $$
 
-For the above example, minimum variance portfolio is attained when $x_1 = 0.62$ and $x_2 = 0.38$ with $\sigma = 17.5299\%$ and $r = 20.66\%.$ The following figure shows returns vs standard deviation plot of the portfolio for various combinations of $x_1$ and $x_2.$
+Hence $x_1$ defined by \eqref{min} is point of minimum for $\sigma^2$. For the above example, minimum variance portfolio is attained when $x_1 = 0.62$ and $x_2 = 0.38$ with $\sigma = 17.5299\%$ and $r = 20.66\%.$ The following figure shows returns vs standard deviation plot of the portfolio for various combinations of $x_1$ and $x_2.$
 
 ![image](http://rahulrajupattar.github.io/files/minvar.png)
 
