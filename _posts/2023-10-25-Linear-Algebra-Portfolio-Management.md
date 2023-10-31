@@ -56,7 +56,7 @@ $$
 By inverting the above $2\times2$ matrix we obtain 
 
 $$
-	\begin{bmatrix}
+\begin{bmatrix}
 		x\\
 		y
 	\end{bmatrix}
@@ -65,9 +65,9 @@ $$
 		9\\
 		1
 	\end{bmatrix}
-\label{s2}$$
+\label{s3}$$
 
-The above puzzle gives a glimpse of 
+The above puzzle gives a glimpse of how one can write off systems of linear equations as one matrix equation. Depending on the properties of the matrix, we may have unique, none or infinite number of solutions.
 
 ### Standard Deviation of a Portfolio
 
