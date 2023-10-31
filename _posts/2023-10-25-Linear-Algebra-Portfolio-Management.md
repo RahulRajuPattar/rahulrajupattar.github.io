@@ -25,6 +25,8 @@ Linear algebra is a branch of mathematics developed to solve a system of linear 
 
 ### Standard Deviation of a Portfolio
 
+Standard deviation or volatility is a statistical measure of the dispersion of returns of a security. Volatility represents how large an asset's prices swing around the mean price. In what follows below we demonstrate the role of linear algebra in calculating standard deviation of a portfolio.
+
 For the sake of demonstration, let us suppose that our portfolio consists of two securities $A_1$ and $A_2$ whose returns, standard deviation and weights in the portfolio are summarized in the following table.
 
 | Asset    | Weight    | Standard Deviation($\%$)| Return($\%$)   | 
