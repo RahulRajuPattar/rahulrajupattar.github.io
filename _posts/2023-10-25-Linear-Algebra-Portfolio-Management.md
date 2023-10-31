@@ -67,7 +67,9 @@ $$
 	\end{bmatrix}
 \label{s3}$$
 
-The above puzzle gives a glimpse of how one can write off systems of linear equations as one matrix equation. Depending on the properties of the matrix, we may have unique, none or infinite number of solutions.
+The above puzzle gives a glimpse of how one can write off a system of linear equations as one single matrix equation. If there are $n$ equations in $m$unknowns, the order of the matrix representing the system is $n \times m$. Depending on the properties of this matrix, we may have none, unique or infinite number of solutions. In calculating the standard deviation of a portfolio we will only have to deal with case $n=m.$ 
+
+**Invertibility of a matrix:** Let $A$ be an 
 
 ### Standard Deviation of a Portfolio
 
