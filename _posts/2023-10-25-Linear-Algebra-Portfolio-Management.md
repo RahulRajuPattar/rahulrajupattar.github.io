@@ -20,7 +20,8 @@ Linear algebra is a branch of mathematics developed to solve a system of linear 
 
 ### Linear Algebra Basics
 
-
+**Puzzle**
+Imagine yourself traveling in a river cruise ship. You noticed that the ship sailed 40 miles downstream for 4 hours and then took 5 hours sailing upstream to return to the dock. How would you calculate the speed of the ship in still water and the speed of the river current?
 
 
 ### Standard Deviation of a Portfolio
