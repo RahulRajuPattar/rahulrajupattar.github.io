@@ -26,7 +26,7 @@ Imagine yourself traveling in a river cruise ship. You noticed that the ship sai
 
 ***Solution***
 
-Let us denote speed ship in still water  by $x$ and that of river current by $y$. Your observation can be now described by following syatem of linear equations:
+Let us denote speed ship in still water  by $x$ and that of river current by $y$. Your observation can be now described by following system of linear equations:
 
 $$
 \begin{aligned}
@@ -38,21 +38,34 @@ $$
 The above system can be represented by the following matrix equation:
 
 \begin{equation}\label{s2}
-	 \begin{matrix}
+	 \begin{bmatrix}
 		4 & 4\\
 		5 & -5
-	\end{matrix}
-	 \begin{matrix}
+	\end{bmatrix}
+	 \begin{bmatrix}
 		x\\
 		y
-	\end{matrix}
+	\end{bmatrix}
 	=
-	\begin{matrix}
+	\begin{bmatrix}
 		40\\
 		40
-	\end{matrix}
+	\end{bmatrix}
 \end{equation}
 
+By inverting the above $2\times2$ matrix we obtain 
+
+\begin{equation}\label{s2}
+	 \begin{bmatrix}
+		x\\
+		y
+	\end{bmatrix}
+	=
+	\begin{bmatrix}
+		9\\
+		1
+	\end{bmatrix}
+\end{equation}
 
 ### Standard Deviation of a Portfolio
 
