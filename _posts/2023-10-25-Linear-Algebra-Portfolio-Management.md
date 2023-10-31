@@ -26,24 +26,33 @@ Imagine yourself traveling in a river cruise ship. You noticed that the ship sai
 
 ***Solution***
 
-Let us denote speed ship in still water  by $s$ and that of river current by $c$. Your observation can be now described by following syatem of linear equations:
+Let us denote speed ship in still water  by $x$ and that of river current by $y$. Your observation can be now described by following syatem of linear equations:
 
 $$
 \begin{aligned}
-	4(s+c) &= 40\\
-	5(s-c) &= 40
+	4(x+y) &= 40\\
+	5(x-y) &= 40
 \end{aligned}
 \label{s1}$$
-
-\begin{equation}\label{s2}
-	Ax = b
-\end{equation}
 
 The above system can be represented by the following matrix equation:
 
 \begin{equation}\label{s2}
-	
+	 \begin{matrix}
+		4 & 4\\
+		5 & -5
+	\end{matrix}
+	 \begin{matrix}
+		x\\
+		y
+	\end{matrix}
+	=
+	\begin{matrix}
+		40\\
+		40
+	\end{matrix}
 \end{equation}
+
 
 ### Standard Deviation of a Portfolio
 
