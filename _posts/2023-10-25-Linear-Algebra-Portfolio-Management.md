@@ -28,11 +28,16 @@ Imagine yourself traveling in a river cruise ship. You noticed that the ship sai
 
 Let us denote speed ship in still water  by $x$ and that of river current by $y$. Your observation can be now described by following syatem of linear equations:
 
-\begin{align*}\label{s1}
+\begin{align}\label{s1}
 	4(x+y) &= 40\\
 	5(x-y) &= 40
-\end{align*}
+\end{align}
 
+The above system can be represented by the following matrix equation:
+
+\begin{equation}\label{s2}
+	
+\end{equation}
 
 ### Standard Deviation of a Portfolio
 
