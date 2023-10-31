@@ -37,8 +37,8 @@ $$
 
 The above system can be represented by the following matrix equation:
 
-\begin{equation}\label{s2}
-	 \begin{bmatrix}
+$$
+ \begin{bmatrix}
 		4 & 4\\
 		5 & -5
 	\end{bmatrix}
@@ -51,12 +51,12 @@ The above system can be represented by the following matrix equation:
 		40\\
 		40
 	\end{bmatrix}
-\end{equation}
+\label{s2}$$
 
 By inverting the above $2\times2$ matrix we obtain 
 
-\begin{equation}\label{s2}
-	 \begin{bmatrix}
+$$
+	\begin{bmatrix}
 		x\\
 		y
 	\end{bmatrix}
@@ -65,7 +65,9 @@ By inverting the above $2\times2$ matrix we obtain
 		9\\
 		1
 	\end{bmatrix}
-\end{equation}
+\label{s2}$$
+
+The above puzzle gives a glimpse of 
 
 ### Standard Deviation of a Portfolio
 
