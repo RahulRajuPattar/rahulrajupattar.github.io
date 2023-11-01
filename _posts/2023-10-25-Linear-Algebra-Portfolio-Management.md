@@ -69,7 +69,18 @@ $$
 
 The above puzzle gives a glimpse of how one can write off a system of linear equations as one single matrix equation. If there are $n$ equations in $m$ unknowns, the order of the matrix representing the system is $n \times m$. Depending on the properties of this matrix, we may have none, unique or infinite number of solutions. In calculating the standard deviation of a portfolio we will only have to deal with case $n=m.$ 
 
-**Invertibility of a matrix:** Let $A$ be a $n \times n$ matrix. Matrix $B$ is said to be the inverse of $A$ if $AB = BA = I$ where $I$ 
+**Invertibility of a matrix:** Let $A$ be a $n \times n$ matrix. Matrix $B$ is said to be the inverse of $A$ if $AB = BA = I$ where $I$ is the $n \times n$ identity matrix of the form
+
+$$
+   \begin{pNiceMatrix}[nullify-dots,xdots/shorten=4pt]
+1 & 0 & & \Cdots & & 0 \\
+0 & 1 & \Ddots & & & \Vdots \\
+\Vdots &  \Ddots & \Ddots \\
+\\
+  &   & &        & & 0 \\
+0 & \Cdots & & & 0 & 1
+\end{pNiceMatrix}
+$$
 
 ### Standard Deviation of a Portfolio
 
