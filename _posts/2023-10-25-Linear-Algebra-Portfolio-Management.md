@@ -30,8 +30,8 @@ Let us denote speed ship in still water  by $x$ and that of river current by $y$
 
 $$
 \begin{aligned}
-	4(x+y) &= 40\\
-	5(x-y) &= 40
+	4(x+y) &= 40,\\
+	5(x-y) &= 40.
 \end{aligned}
 \label{s1}$$
 
@@ -50,10 +50,10 @@ $$
 	\begin{bmatrix}
 		40\\
 		40
-	\end{bmatrix}
+	\end{bmatrix}.
 \label{s2}$$
 
-By inverting the above $2\times2$ matrix we obtain 
+By inverting the above $2\times2$ matrix we obtain the speeds as
 
 $$
 \begin{bmatrix}
@@ -64,12 +64,12 @@ $$
 	\begin{bmatrix}
 		9\\
 		1
-	\end{bmatrix}
+	\end{bmatrix}.
 \label{s3}$$
 
-The above puzzle gives a glimpse of how one can write off a system of linear equations as one single matrix equation. If there are $n$ equations in $m$unknowns, the order of the matrix representing the system is $n \times m$. Depending on the properties of this matrix, we may have none, unique or infinite number of solutions. In calculating the standard deviation of a portfolio we will only have to deal with case $n=m.$ 
+The above puzzle gives a glimpse of how one can write off a system of linear equations as one single matrix equation. If there are $n$ equations in $m$ unknowns, the order of the matrix representing the system is $n \times m$. Depending on the properties of this matrix, we may have none, unique or infinite number of solutions. In calculating the standard deviation of a portfolio we will only have to deal with case $n=m.$ 
 
-**Invertibility of a matrix:** Let $A$ be an 
+**Invertibility of a matrix:** Let $A$ be a $n \times n$ matrix. Matrix $B$ is said to be the inverse of $A$ if $AB = BA = I$ where $I$ 
 
 ### Standard Deviation of a Portfolio
 
