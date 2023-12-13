@@ -9,6 +9,21 @@ tags:
 #  - category2
 
 ---
+<style>
+	.theorem {
+	display: block;
+	font-style: italic;
+	}
+	.theorem:before {
+	content: "Theorem. ";
+	font-weight: bold;
+	font-style: normal;
+	}
+	.theorem[text]:before {
+	content: "Theorem (" attr(text) ") ";
+	}
+</style>
+
 In this post, we will look at various methods for generating random variates. It goes without saying that simulation of random variables from specified probability distribution is one of the fundamental tools in computational statistics.
 
 ### 1. The Inverse Transform Method
