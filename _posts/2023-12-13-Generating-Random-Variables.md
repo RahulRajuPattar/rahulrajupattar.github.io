@@ -17,19 +17,19 @@ tags:
   	font-family: "Times New Roman";
   	color: black;
   	border-radius: 10px;
-  	background-color: rgb(222,222,231);
+  	background-color: rgb(144,238,144);
   	box-shadow: 5px 10px 8px #888888;
 	}
 	.theorem::before {
   	content: "Theorem. ";
   	font-weight: bold;
   	font-style: normal;
-  	display: inline-block;
+  	%display: inline-block;
   	width: -webkit-fill-available;
-  	color: white;
+  	color: black;
   	border-radius: 10px 10px 0 0;
   	padding: 10px 5px 5px 15px;
-  	background-color: rgb(38, 38, 134);
+  	background-color: rgb(144,238,144); %rgb(38, 38, 134);
 	}
 	.theorem[text]::before {
   	content: "Theorem (" attr(text) ") ";
@@ -46,8 +46,9 @@ In this post, we will look at various methods for generating random variates. It
 This method is based on an important observation stated below:
 		
 <div class="theorem" text='Prime numbers'>
-	If $X$ is a continuous random variable with cdf (cumulative distribution function) $F_X(x)$, then $U = F_X(X) \sim Uniform(0,1).$
+	If $X$ is a continuous random variable with cdf (cumulative distribution function) $F_X(x)$, then $U = F_X(X) \sim Uniform(0,1).$ 
 </div>
+
 		
 It is easy to observe this fact empirically 
 
