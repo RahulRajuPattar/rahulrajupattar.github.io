@@ -2,7 +2,7 @@
 title: 'Generating Random Variables'
 date: 2023-12-13
 header-includes: |
-    \usepackage{tikz,pgfplots}
+    \usepackage{amsthm}
 permalink: /posts/2023/12/2023-12-13-Generating-Random-Variables/
 tags:
   - Computational Statistics
