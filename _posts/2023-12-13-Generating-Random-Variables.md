@@ -3,6 +3,17 @@ title: 'Generating Random Variables'
 date: 2023-10-25
 header-includes: |
     \usepackage{tikz,pgfplots}
+    .theorem {
+    display: block;
+    margin: 12px 0;
+    font-style: italic;
+}
+.theorem:before {
+    content: "Theorem.";
+    font-weight: bold;
+    font-style: normal;
+}
+
 permalink: /posts/2023/12/2023-12-13-Generating-Random-Variables/
 tags:
   - Computational Statistics
