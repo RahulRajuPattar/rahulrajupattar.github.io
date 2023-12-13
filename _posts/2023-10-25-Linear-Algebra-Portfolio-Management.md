@@ -22,6 +22,7 @@ Linear algebra is a branch of mathematics developed to solve a system of linear 
 ### Linear Algebra Basics
 
 Linear Algebra is a systematic theory regarding the solutions of systems of $m$ linear equations  in $n$ unknowns $x_1,x_2, \dots, x_n$ of the form
+
 $$
 \begin{aligned}
 	a_{11} x_1+a_{12} x_2+\cdots+a_{1 n} x_n & =b_1 \\
@@ -30,6 +31,7 @@ $$
 	a_{m 1} x_1+a_{m 2} x_2+\cdots+a_{m n} x_n & =b_m
 \end{aligned}
 $$
+
 where the  $a_{ij}$ are the coefficients (usually real or complex numbers) in front of the unknowns  $x_j$, and the  $b_i$ are also fixed real or complex numbers. Linear Algebra is a theory that concerns the solutions and the structure of solutions for linear equations.
 
 ***Puzzle***
