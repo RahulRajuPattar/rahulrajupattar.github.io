@@ -17,7 +17,7 @@ tags:
   	font-family: "Monospace";
   	color: black;
   	border-radius: 10px;
-  	background-color: rgba(240,255,240,255);
+  	background-color: rgb(240,260,240);
   	box-shadow: 5px 10px 8px #888888;
 	}
 	.theorem::before {
@@ -29,7 +29,7 @@ tags:
   	color: black;
   	border-radius: 10px 10px 0 0;
   	%padding: 10px 5px 5px 15px;
-  	background-color: rgb(240,255,240); %rgb(38, 38, 134);
+  	background-color: rgb(240,260,240); %rgb(38, 38, 134);
 	}
 	.theorem[text]::before {
   	content: "Theorem (" attr(text) ") ";
