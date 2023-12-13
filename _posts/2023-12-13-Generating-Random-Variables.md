@@ -1,6 +1,6 @@
 ---
 title: 'Generating Random Variables'
-date: 2023-10-25
+date: 2023-12-13
 header-includes: |
     \usepackage{tikz,pgfplots}
 permalink: /posts/2023/12/2023-12-13-Generating-Random-Variables/
@@ -19,7 +19,7 @@ This method is based on an important observation stated below:
 		
 It is easy to observe this fact empirically 
 
-<div style="background-color: rgb(0, 50, 0);">
+<div style="background-color: rgb(2, 20, 0);">
 
 If $X$ is a continuous random variable with cdf (cumulative distribution function) $F_X(x)$, then $U = F_X(X) \sim Uniform(0,1).$ 
 
