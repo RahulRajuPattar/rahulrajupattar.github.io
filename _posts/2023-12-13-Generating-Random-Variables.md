@@ -19,7 +19,7 @@ This method is based on an important observation stated below:
 		
 It is easy to observe this fact empirically 
 
-<div style="background-color: rgb(2, 20, 0);">
+<div style="background-color: rgb(0, 0, 0);">
 
 If $X$ is a continuous random variable with cdf (cumulative distribution function) $F_X(x)$, then $U = F_X(X) \sim Uniform(0,1).$ 
 
