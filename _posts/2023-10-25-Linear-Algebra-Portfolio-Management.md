@@ -27,7 +27,7 @@ $$
 \begin{aligned}
 	a_{11} x_1+a_{12} x_2+\cdots+a_{1 n} x_n & =b_1 \\
 	a_{21} x_1+a_{22} x_2+\cdots+a_{2 n} x_n & =b_2 \\	
-	 			\vdots 				  & \vdots \\ 
+	 			\vdots 	\qquad			  & \;  \vdots \\ 
 	a_{m 1} x_1+a_{m 2} x_2+\cdots+a_{m n} x_n & =b_m
 \end{aligned}
 $$
