@@ -72,6 +72,8 @@ The above puzzle gives a glimpse of how one can write off a system of linear equ
 **Invertibility of a matrix:** Let $A$ be a $n \times n$ matrix. Matrix $B$ is said to be the inverse of $A$ if $AB = BA = I$ where $I$ is the $n \times n$ identity matrix (matrix with all the diagonal entries equal to $1$ and the rest equal to $0$). 
 
 
+
+
 ### Standard Deviation of a Portfolio
 
 Standard deviation or volatility is a statistical measure of the dispersion of returns of a security. Volatility represents how large an asset's prices swing around the mean price. In what follows below we demonstrate the role of linear algebra in calculating standard deviation of a portfolio.
