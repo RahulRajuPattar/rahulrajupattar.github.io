@@ -15,13 +15,15 @@ In this post, we will look at various methods for generating random variates. It
 
 This method is based on an important observation stated below:
 		
-If $X$ is a continuous random variable with cdf (cumulative distribution function) $F_X(x)$, then $U = F_X(X) \sim Uniform(0,1).$ 
+
 		
 It is easy to observe this fact empirically 
 
-```{theorem, label, name="Theorem name"}
-Here is my theorem.
-```
+<div style="background-color: rgb(0, 50, 0);">
+
+If $X$ is a continuous random variable with cdf (cumulative distribution function) $F_X(x)$, then $U = F_X(X) \sim Uniform(0,1).$ 
+
+</div>
 
 
 
