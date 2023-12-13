@@ -13,8 +13,8 @@ tags:
 	.theorem {
   	display: block;
   	font-style: italic;
- 	font-size: 12px;
-  	font-family: "Times New Roman";
+ 	font-size: 20px;
+  	font-family: "Monospace";
   	color: black;
   	border-radius: 10px;
   	background-color: rgb(144,238,144);
