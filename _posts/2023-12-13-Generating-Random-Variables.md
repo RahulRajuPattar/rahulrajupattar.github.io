@@ -9,16 +9,6 @@ tags:
 #  - category2
 
 ---
-.theorem {
-    display: block;
-    margin: 12px 0;
-    font-style: italic;
-}
-.theorem:before {
-    content: "Theorem.";
-    font-weight: bold;
-    font-style: normal;
-}
 In this post, we will look at various methods for generating random variates. It goes without saying that simulation of random variables from specified probability distribution is one of the fundamental tools in computational statistics.
 
 ### 1. The Inverse Transform Method
@@ -29,13 +19,9 @@ If $X$ is a continuous random variable with cdf (cumulative distribution functio
 		
 It is easy to observe this fact empirically 
 
-<div class="theorem">
-There are no natural numbers
-$\naturals = (1, 2, 3, \ldots)$
-$x$, $y$, and $z$ such that
-$x^n + y^n = z^n$, in which $n$
-is a natural number greater than 2.
-</div>
+```{theorem, label, name="Theorem name"}
+Here is my theorem.
+```
 
 
 
