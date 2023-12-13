@@ -48,8 +48,8 @@ This method is based on an important observation stated below:
 <div class="theorem" text='Probability Integral Transform'>
 	If $X$ is a continuous random variable with cdf (cumulative distribution function) $F_X(x)$, then $U = F_X(X) \sim Uniform(0,1).$ 
 </div>
-
-		
+  
+  
 It is easy to observe this fact empirically 
 
 
