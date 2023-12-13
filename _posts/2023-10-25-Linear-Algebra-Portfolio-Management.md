@@ -7,6 +7,7 @@ permalink: /posts/2023/10/Linear-Algebra-Portfolio-Management/
 tags:
   - Linear Algebra
   - Portfolio Management
+  - Quantitative Finance
 #  - category2
 
 ---
@@ -16,9 +17,20 @@ tags:
 %  type="text/javascript">
 %</script>
 --->
-Linear algebra is a branch of mathematics developed to solve a system of linear equations and has found many applications in applied sciences- computer science(image processing) and mathematical finance(portfolio management).  In this article, we shall compute standard deviation of a portfolio using tools from linear algebra. Before we jump to this computation it is good to recall certain basic concepts from linear algebra.
+Linear algebra is a branch of mathematics developed to solve a system of linear equations and has found many applications in applied sciences- computer science(machine learning, image processing) and mathematical finance(portfolio management).  In this article, we shall compute standard deviation of a portfolio using tools from linear algebra. Before we jump to this computation it is good to recall certain basic concepts from linear algebra.
 
 ### Linear Algebra Basics
+
+Linear Algebra is a systematic theory regarding the solutions of systems of $m$ linear equations  in $n$ unknowns $x_1,x_2, \dots, x_n$ of the form
+$$
+\begin{aligned}
+	a_{11} x_1+a_{12} x_2+\cdots+a_{1 n} x_n & =b_1 \\
+	a_{21} x_1+a_{22} x_2+\cdots+a_{2 n} x_n & =b_2 \\	
+	 			\vdots 				  & \vdots \\ 
+	a_{m 1} x_1+a_{m 2} x_2+\cdots+a_{m n} x_n & =b_m
+\end{aligned}
+$$
+where the  $a_{ij}$ are the coefficients (usually real or complex numbers) in front of the unknowns  $x_j$, and the  $b_i$ are also fixed real or complex numbers. Linear Algebra is a theory that concerns the solutions and the structure of solutions for linear equations.
 
 ***Puzzle***
 
@@ -112,9 +124,9 @@ $$
 \end{pmatrix}
 \label{QF}$$
 
-On the right hand side of the above expression, sandwiched between the weights vectors is the variance-covariance matrix. As far as the computation is concerned, the expression \eqref{QF} is more helpful than \eqref{formula} which we will see in a short while.
+On the right hand side of the above expression, sandwiched between the weights vectors is the variance-covariance matrix. As far as the general computation is concerned, the expression \eqref{QF} is more helpful than \eqref{formula} which we will see in a short while.
 
-**Example:** Let $\sigma_{1} = 23\%, \sigma_{2} = 30\%$, $r_1 = 18\%, r_2 = 25\%$, $x_1 = 0.3, x_2 = 0.7$, and $\rho_{12} = -0.08$. The the portfolio retuns and standard deviation are $r =  22.9\%$ and $\sigma = 21.5737\%,$ respectively.
+**Example:** Let $\sigma_{1} = 23\%, \sigma_{2} = 30\%$, $r_1 = 18\%, r_2 = 25\%$, $x_1 = 0.3, x_2 = 0.7$, and $\rho_{12} = -0.08$. The the portfolio returns and standard deviation are $r =  22.9\%$ and $\sigma = 21.5737\%,$ respectively.
 
 Suppose as a risk averse investor, one is interested in a minimum variance portfolio then what should be the weights for the assets in the portfolio? This can be calculated as below:
 
