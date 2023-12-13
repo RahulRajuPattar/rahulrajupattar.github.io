@@ -11,16 +11,31 @@ tags:
 ---
 <style>
 	.theorem {
-	display: block;
-	font-style: italic;
+  	display: block;
+  	font-style: italic;
+ 	font-size: 24px;
+  	font-family: "Times New Roman";
+  	color: black;
+  	border-radius: 10px;
+  	background-color: rgb(222,222,231);
+  	box-shadow: 5px 10px 8px #888888;
 	}
-	.theorem:before {
-	content: "Theorem. ";
-	font-weight: bold;
-	font-style: normal;
+	.theorem::before {
+  	content: "Theorem. ";
+  	font-weight: bold;
+  	font-style: normal;
+  	display: inline-block;
+  	width: -webkit-fill-available;
+  	color: white;
+  	border-radius: 10px 10px 0 0;
+  	padding: 10px 5px 5px 15px;
+  	background-color: rgb(38, 38, 134);
 	}
-	.theorem[text]:before {
-	content: "Theorem (" attr(text) ") ";
+	.theorem[text]::before {
+  	content: "Theorem (" attr(text) ") ";
+	}
+	.theorem p {
+  	padding: 15px 15px 15px 15px;
 	}
 </style>
 
@@ -30,15 +45,13 @@ In this post, we will look at various methods for generating random variates. It
 
 This method is based on an important observation stated below:
 		
-\begin{theorem}
+<div class="theorem" text='Prime numbers'>
 	If $X$ is a continuous random variable with cdf (cumulative distribution function) $F_X(x)$, then $U = F_X(X) \sim Uniform(0,1).$
-\end{theorem}
+</div>
 		
 It is easy to observe this fact empirically 
 
-<div class="theorem" text='Prime numbers'>
-All odd numbers are prime.
-</div>
+
 
 
 
