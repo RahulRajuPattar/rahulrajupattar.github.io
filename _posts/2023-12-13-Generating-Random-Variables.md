@@ -24,11 +24,11 @@ tags:
   	content: "Theorem. ";
   	font-weight: bold;
   	font-style: normal;
-  	%display: inline-block;
+  	display: inline-block;
   	width: -webkit-fill-available;
   	color: black;
   	border-radius: 10px 10px 0 0;
-  	padding: 10px 5px 5px 15px;
+  	%padding: 10px 5px 5px 15px;
   	background-color: rgb(144,238,144); %rgb(38, 38, 134);
 	}
 	.theorem[text]::before {
