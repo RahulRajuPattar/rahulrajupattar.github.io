@@ -87,7 +87,7 @@ The above puzzle gives a glimpse of how one can write off a system of linear equ
 
 **Invertibility of a matrix:** Let $A$ be a $n \times n$ matrix. Matrix $B$ is said to be the inverse of $A$ if $AB = BA = I$ where $I$ is the $n \times n$ identity matrix (matrix with all the diagonal entries equal to $1$ and the rest equal to $0$). 
 
-**Symmetric matrix:** A $n \times n$ matrix $A = (a_{ij})_{i,j=1}^n$ is said to be symmetric if the matrix components are such that $a_{ij} = a_{ji}.$
+**Symmetric matrix:** A $n \times n$ matrix $A = (a_{ij})$ is said to be symmetric if the matrix components are such that $a_{ij} = a_{ji}.$
 
 
 
