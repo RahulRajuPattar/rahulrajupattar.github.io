@@ -27,7 +27,7 @@ $$
 \begin{aligned}
 	a_{11} x_1+a_{12} x_2+\cdots+a_{1 n} x_n & =b_1 \\
 	a_{21} x_1+a_{22} x_2+\cdots+a_{2 n} x_n & =b_2 \\	
-	 			\vdots 	\qquad			  & \;  \vdots \\ 
+	 			\vdots 	\quad \qquad	           & \quad  \vdots \\ 
 	a_{m 1} x_1+a_{m 2} x_2+\cdots+a_{m n} x_n & =b_m
 \end{aligned}
 $$
@@ -84,6 +84,8 @@ $$
 The above puzzle gives a glimpse of how one can write off a system of linear equations as one single matrix equation. If there are $n$ equations in $m$ unknowns, the order of the matrix representing the system is $n \times m$. Depending on the properties of this matrix, we may have none, unique or infinite number of solutions. In calculating the standard deviation of a portfolio we will only have to deal with case $n=m.$ 
 
 **Invertibility of a matrix:** Let $A$ be a $n \times n$ matrix. Matrix $B$ is said to be the inverse of $A$ if $AB = BA = I$ where $I$ is the $n \times n$ identity matrix (matrix with all the diagonal entries equal to $1$ and the rest equal to $0$). 
+
+**Symmetric matrix:** A matrix $A = (a_{ij})$ is said to be symmetric if the matrix components are such that $a_{ij} = a_{ji}.$
 
 
 
