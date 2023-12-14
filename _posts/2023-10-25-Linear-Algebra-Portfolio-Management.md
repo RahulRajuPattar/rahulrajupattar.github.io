@@ -162,7 +162,7 @@ $$
 	\frac{d^2 \sigma^2}{dx_1^2} = 2(\sigma_1^2 + \sigma_2^2 - 2 \rho_{12}\sigma_1\sigma_2) > 0 \quad \text{ for any }  \rho_{12} \in [-1,1].
 $$
 
-Hence $x_1$ defined in \eqref{min} is the point of minimum for $\sigma^2$. For the above example, minimum variance portfolio is attained when $x_1 = 0.62$ and $x_2 = 0.38$ with $\sigma = 17.5299\%$ and $r = 20.66\%.$ The following figure shows returns vs standard deviation plot of the portfolio for various combinations of $x_1$ and $x_2.$
+Hence $x_1$ defined in \eqref{min} is the point of minimum for $\sigma^2$. For the above example, minimum variance portfolio is attained when $x_1 = 0.62$ and $x_2 = 0.38$ with $\sigma = 17.5299\%$ and $r = 20.66\%.$ The following figure shows returns vs standard deviation plot of the portfolio for various combinations of $x_1$ and $x_2.$ Python code to generate the graph can be found [here](https://github.com/RahulRajuPattar/Quantitative-Finance/blob/main/Portfl_Std_Devs.py).
 
 ![image](http://rahulrajupattar.github.io/files/minvar.png)
 
