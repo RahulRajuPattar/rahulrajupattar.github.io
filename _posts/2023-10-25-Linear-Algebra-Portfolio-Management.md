@@ -19,7 +19,7 @@ tags:
 --->
 Linear algebra is a branch of mathematics developed to solve a system of linear equations and has found many applications in applied sciences- computer science(machine learning, image processing) and mathematical finance(portfolio management).  In this article, we shall compute standard deviation of a portfolio using tools from linear algebra. Before we jump to this computation it is good to recall certain basic concepts from linear algebra. 
 
-To get a hint of how linear algebra helps in solving some applied problems, let's look into following puzzle.
+
 
 ### Linear Algebra Basics
 
@@ -34,7 +34,7 @@ $$
 \end{aligned}
 $$
 
-where the  $a_{ij}$ are the coefficients (usually real or complex numbers) in front of the unknowns  $x_j$, and the  $b_i$ are also fixed real or complex numbers. Linear Algebra is a theory that concerns the solutions and the structure of solutions for linear equations.
+where the  $a_{ij}$ are the coefficients (usually real or complex numbers) in front of the unknowns  $x_j$, and the  $b_i$ are also fixed real or complex numbers. Linear Algebra is a theory that concerns the solutions and the structure of solutions for linear equations. To get a hint of how linear algebra helps in solving some applied problems, let's look into following puzzle.
 
 ***Puzzle***
 
