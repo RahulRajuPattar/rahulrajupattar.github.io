@@ -1,6 +1,6 @@
 ---
 permalink: /teaching/
-title: "Teaching Assistence"
+title: "Teaching Assistance"
 ---
 
 1. Spring 2019 - Functional Analysis (Graduate Course)
