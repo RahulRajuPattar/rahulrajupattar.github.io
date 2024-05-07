@@ -8,6 +8,10 @@ title: "Publications"
 1. Pattar, R. R., Kiran, N. U. (2022) Energy estimates and global well-posedness for a broad class of strictly hyperbolic Cauchy problems with coefficients singular in time, Journal of Pseudo-differential Operators and Applications, 13, 9. [Download paper here](https://doi.org/10.1007/s11868-021-00439-2)
 1. Pattar, R. R., Kiran, N. U. (2022) Global well-posedness of a class of singular hyperbolic Cauchy problems, Monatshefte für Mathematik. [Download paper here](https://doi.org/10.1007/s00605-022-01723-z)
 
+Book Chapter
+======
+1. Pattar, R.R., Uday Kiran, N. (2024), Global Well-Posedness with Loss of Regularity for a Class of Singular Hyperbolic Cauchy Problems. In: Ruzhansky, M., Van Bockstal, K. (eds) Extended Abstracts 2021/2022. APDEGS 2021. Trends in Mathematics- Vol 2. Birkhäuser, Cham. [Download chapter here](https://doi.org/10.1007/978-3-031-42539-4_24)
+
 Preprints
 ======
 
