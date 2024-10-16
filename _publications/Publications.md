@@ -1,6 +1,6 @@
 ---
 permalink: /publications/
-title: "Research"
+title: "Publications"
 ---
   
 1. Pattar, R. R. and Kiran, N. U. (2021), Global well-posedness of a class of strictly hyperbolic Cauchy problems with coefficients non-absolutely continuous in time. Bulletin des Sciences Mathématiques, 171, 103037. [Download paper here](https://doi.org/10.1016/j.bulsci.2021.103037)
