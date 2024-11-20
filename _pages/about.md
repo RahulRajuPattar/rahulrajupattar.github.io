@@ -25,6 +25,6 @@ Research Interests:
 1. Microlocal analysis and Pseudodifferential operators 
 
 
-[CV](http://rahulrajupattar.github.io/files/CV.pdf)
+[My CV.](http://rahulrajupattar.github.io/files/CV.pdf)
 
 
