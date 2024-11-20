@@ -14,7 +14,7 @@ With a solid foundation as a trained applied mathematician, I have extensive res
 
 [My Erdős number is 4](https://mathscinet.ams.org/mathscinet/freetools/collab-dist?source=1454857&target=189017): Paul Erdős -> Svante Janson -> Jan Boman ->  Venkateswaran P. Krishnan ->  Rahul Raju Pattar.
 
-[My Einstein number is 7](https://mathscinet.ams.org/mathscinet/freetools/collab-dist?source=1454857&target=62280): Albert Einstein -> Peter Gabriel Bergmann -> Michel Cahen -> Lieven Vanhecke ->  David E. Blair ->  Ramesh Sharma ->  Uday Kiran, N. ->  Rahul Raju Pattar.
+[My Einstein number is 6](https://mathscinet.ams.org/mathscinet/freetools/collab-dist?source=1454857&target=62280): Albert Einstein -> Ernst Gabor Straus -> Béla Bollobás -> Svante Janson ->  Jan Boman ->   Venkateswaran P. Krishnan ->  Rahul Raju Pattar.
 
 Research Interests:
 -------------------------
