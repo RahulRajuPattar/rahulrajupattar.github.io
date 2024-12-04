@@ -15,5 +15,5 @@ Book Chapter
 
 Preprints
 ======
-1. Jathar, S.R.,  Kar, M., Krishnan, V. P., and Pattar, R. R. (2024), Weighted Divergent Beam Ray Transform: Construction, Unique Continuation and Stability.  [Download paper here](https://doi.org/10.48550/arXiv.2412.00738) (Submitted to SIAM Journal of Applied Mathematics)
+1. Jathar, S.R.,  Kar, M., Krishnan, V. P., and Pattar, R. R. (2024), Weighted Divergent Beam Ray Transform: Construction, Unique Continuation and Stability.  [Download paper here](https://doi.org/10.48550/arXiv.2412.00738) (Submitted to SIAM Journal of Mathematical Analysis)
 1. Pattar, R. R. and Uday Kiran, N. (2021), Strictly hyperbolic equations with coefficients sublogarithmic in time.  [Download paper here](https://doi.org/10.48550/arXiv.2111.11701)
